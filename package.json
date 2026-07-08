@@ -1,0 +1,23 @@
+{
+  "name": "grap-pairs",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dashboard": "node server.js",
+    "dev": "node index.js & node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "binance": "^3.5.10",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
